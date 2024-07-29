@@ -1,0 +1,640 @@
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-08T21:33:17.858Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-09T13:37:36.181Z'
+}
+{
+  name: 'Error',
+  stack: 'Error: Connection lost: The server closed the connection.\n' +
+    '    at Protocol.end (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:112:13)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:94:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:530:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1696:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)',
+  level: 'error',
+  message: 'Connection lost: The server closed the connection.',
+  timestamp: '2024-05-11T14:35:33.632Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-11T15:31:34.501Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-11T18:20:14.264Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-11T18:22:51.382Z'
+}
+{
+  name: 'Error',
+  stack: 'Error: Connection lost: The server closed the connection.\n' +
+    '    at Protocol.end (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:112:13)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:94:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:530:35)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1696:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)',
+  level: 'error',
+  message: 'Connection lost: The server closed the connection.',
+  timestamp: '2024-05-12T12:53:00.842Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T12:55:59.247Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T16:26:45.315Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T16:27:48.744Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T18:02:52.033Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T18:03:39.427Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T23:03:56.171Z'
+}
+{
+  stack: "Error: ER_BAD_NULL_ERROR: Column 'companyName' cannot be null\n" +
+    '    at Sequence._packetToError (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n' +
+    '    at Protocol._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n' +
+    '    at Parser.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n' +
+    '    at Protocol.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:88:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    --------------------\n' +
+    '    at Protocol._enqueue (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n' +
+    '    at Connection.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:198:25)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:165:33\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at dbQueries.insert (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:155:20)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\orders.js:36:72\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\orders.js:36:39\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\orders.js:5:58)',
+  level: 'error',
+  message: "ER_BAD_NULL_ERROR: Column 'companyName' cannot be null",
+  timestamp: '2024-05-12T23:06:25.202Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T23:09:28.180Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T23:22:04.027Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T23:36:41.582Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T23:46:03.942Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T23:47:16.430Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-12T23:52:34.819Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T08:15:05.858Z'
+}
+{
+  stack: "Error: ENOENT: no such file or directory, open 'C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\images\\1715589418971_picture-4.png'",
+  level: 'error',
+  message: "ENOENT: no such file or directory, open 'C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\images\\1715589418971_picture-4.png'",
+  timestamp: '2024-05-13T08:36:58.985Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T08:39:42.703Z'
+}
+{
+  stack: "Error: ENOENT: no such file or directory, open 'C:\\images\\1715589589643_picture-4.png'",
+  level: 'error',
+  message: "ENOENT: no such file or directory, open 'C:\\images\\1715589589643_picture-4.png'",
+  timestamp: '2024-05-13T08:39:49.666Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T08:40:56.594Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T08:41:53.288Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T08:49:13.600Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T08:49:50.599Z'
+}
+{
+  name: 'ReferenceError',
+  stack: "ReferenceError: Cannot access 'path' before initialization\n" +
+    '    at DiskStorage.destination [as getDestination] (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\configs\\configOptions\\index.js:58:18)\n' +
+    '    at DiskStorage._handleFile (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\multer@1.4.5-lts.1\\node_modules\\multer\\storage\\disk.js:31:8)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\multer@1.4.5-lts.1\\node_modules\\multer\\lib\\make-middleware.js:137:17\n' +
+    '    at allowAll (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\multer@1.4.5-lts.1\\node_modules\\multer\\index.js:8:3)\n' +
+    '    at wrappedFileFilter (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\multer@1.4.5-lts.1\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Multipart.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\multer@1.4.5-lts.1\\node_modules\\multer\\lib\\make-middleware.js:107:7)\n' +
+    '    at Multipart.emit (node:events:518:28)\n' +
+    '    at HeaderParser.cb (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\busboy@1.6.0\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n' +
+    '    at HeaderParser.push (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\busboy@1.6.0\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n' +
+    '    at SBMH.ssCb [as _cb] (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\busboy@1.6.0\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)',
+  level: 'error',
+  message: "Cannot access 'path' before initialization",
+  timestamp: '2024-05-13T08:49:56.872Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T08:50:38.375Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T08:53:02.801Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T08:54:22.324Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T08:56:09.461Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T09:44:01.011Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T09:49:19.024Z'
+}
+{
+  name: 'Error',
+  stack: "Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(100)   , last_modified TIMESTAMP NOT NULL, created_at TIMESTAMP DEFAULT CURR...' at line 1\n" +
+    '    at Sequence._packetToError (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n' +
+    '    at Protocol._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n' +
+    '    at Parser.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n' +
+    '    at Protocol.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:88:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    --------------------\n' +
+    '    at Protocol._enqueue (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n' +
+    '    at Connection.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:198:25)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:32:33\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at dbQueries.createTable (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:12:20)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\model\\index.js:62:30\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\model\\index.js:5:58)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  message: "ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(100)   , last_modified TIMESTAMP NOT NULL, created_at TIMESTAMP DEFAULT CURR...' at line 1",
+  timestamp: '2024-05-13T09:49:19.298Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T09:59:48.020Z'
+}
+{
+  name: 'Error',
+  stack: "Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(100)   , last_modified TIMESTAMP NOT NULL, created_at TIMESTAMP DEFAULT CURR...' at line 1\n" +
+    '    at Sequence._packetToError (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n' +
+    '    at Protocol._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n' +
+    '    at Parser.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n' +
+    '    at Protocol.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:88:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    --------------------\n' +
+    '    at Protocol._enqueue (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n' +
+    '    at Connection.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:198:25)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:32:33\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at dbQueries.createTable (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:12:20)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\model\\index.js:62:30\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\model\\index.js:5:58)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  message: "ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(100)   , last_modified TIMESTAMP NOT NULL, created_at TIMESTAMP DEFAULT CURR...' at line 1",
+  timestamp: '2024-05-13T09:59:48.408Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T10:01:55.959Z'
+}
+{
+  name: 'Error',
+  stack: "Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(100)   , last_modified TIMESTAMP NOT NULL, created_at TIMESTAMP DEFAULT CURR...' at line 1\n" +
+    '    at Sequence._packetToError (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n' +
+    '    at Protocol._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n' +
+    '    at Parser.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n' +
+    '    at Protocol.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:88:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    --------------------\n' +
+    '    at Protocol._enqueue (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n' +
+    '    at Connection.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:198:25)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:32:33\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at dbQueries.createTable (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:12:20)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\model\\index.js:62:30\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\model\\index.js:5:58)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  message: "ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(100)   , last_modified TIMESTAMP NOT NULL, created_at TIMESTAMP DEFAULT CURR...' at line 1",
+  timestamp: '2024-05-13T10:01:56.125Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T10:02:28.586Z'
+}
+{
+  name: 'Error',
+  stack: "Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(100) CHECK JSON_VALID(products)  , last_modified TIMESTAMP NOT NULL, created...' at line 1\n" +
+    '    at Sequence._packetToError (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n' +
+    '    at Protocol._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n' +
+    '    at Parser.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n' +
+    '    at Protocol.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:88:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    --------------------\n' +
+    '    at Protocol._enqueue (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n' +
+    '    at Connection.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:198:25)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:32:33\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at dbQueries.createTable (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:12:20)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\model\\index.js:62:30\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\model\\index.js:5:58)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  message: "ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(100) CHECK JSON_VALID(products)  , last_modified TIMESTAMP NOT NULL, created...' at line 1",
+  timestamp: '2024-05-13T10:02:28.706Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T10:02:48.146Z'
+}
+{
+  name: 'Error',
+  stack: "Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JSON_VALID(products)  , last_modified TIMESTAMP NOT NULL, created_at TIMESTAM...' at line 1\n" +
+    '    at Sequence._packetToError (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n' +
+    '    at Protocol._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n' +
+    '    at Parser.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n' +
+    '    at Protocol.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:88:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    --------------------\n' +
+    '    at Protocol._enqueue (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n' +
+    '    at Connection.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:198:25)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:32:33\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at dbQueries.createTable (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:12:20)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\model\\index.js:62:30\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\model\\index.js:5:58)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  message: "ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JSON_VALID(products)  , last_modified TIMESTAMP NOT NULL, created_at TIMESTAM...' at line 1",
+  timestamp: '2024-05-13T10:02:48.274Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T10:03:03.208Z'
+}
+{
+  stack: "Error: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1\n" +
+    '    at Sequence._packetToError (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n' +
+    '    at Protocol._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n' +
+    '    at Parser.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n' +
+    '    at Protocol.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:88:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    --------------------\n' +
+    '    at Protocol._enqueue (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n' +
+    '    at Connection.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:198:25)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:165:33\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at dbQueries.insert (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:155:20)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\orders.js:39:38\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\orders.js:5:58)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  message: "ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1",
+  timestamp: '2024-05-13T10:11:07.954Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T10:13:14.502Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T10:14:53.677Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T10:31:06.851Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T10:31:20.503Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T10:31:29.107Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T10:35:03.433Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T11:58:42.553Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T12:02:25.422Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T12:07:21.275Z'
+}
+{
+  stack: "Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{+id}' at line 1\n" +
+    '    at Sequence._packetToError (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n' +
+    '    at Protocol._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n' +
+    '    at Parser.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n' +
+    '    at Protocol.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:88:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    --------------------\n' +
+    '    at Protocol._enqueue (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n' +
+    '    at Connection.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:198:25)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:42:33\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at dbQueries.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:41:20)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\orders.js:27:47\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\orders.js:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\orders.js:4:12)',
+  level: 'error',
+  message: "ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{+id}' at line 1",
+  timestamp: '2024-05-13T12:07:29.878Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T12:08:08.163Z'
+}
+{
+  stack: "Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{+id}' at line 1\n" +
+    '    at Sequence._packetToError (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n' +
+    '    at Protocol._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n' +
+    '    at Parser.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n' +
+    '    at Protocol.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:88:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    --------------------\n' +
+    '    at Protocol._enqueue (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n' +
+    '    at Connection.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:198:25)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:42:33\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at dbQueries.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:41:20)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\orders.js:26:47\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\orders.js:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\orders.js:4:12)',
+  level: 'error',
+  message: "ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{+id}' at line 1",
+  timestamp: '2024-05-13T12:08:13.940Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T12:08:58.560Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T12:11:26.077Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T12:21:26.220Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T12:47:23.306Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T12:50:14.160Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T13:02:39.059Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T13:04:07.782Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T13:21:24.741Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T13:22:43.547Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T13:23:02.773Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T14:44:42.021Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T14:45:34.387Z'
+}
+{
+  stack: "Error: ER_BAD_NULL_ERROR: Column 'image' cannot be null\n" +
+    '    at Sequence._packetToError (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n' +
+    '    at Protocol._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n' +
+    '    at Parser.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n' +
+    '    at Protocol.write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:88:28)\n' +
+    '    at Socket.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:526:10)\n' +
+    '    at Socket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:559:12)\n' +
+    '    --------------------\n' +
+    '    at Protocol._enqueue (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n' +
+    '    at Connection.query (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\mysql@2.18.1\\node_modules\\mysql\\lib\\Connection.js:198:25)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:165:33\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at dbQueries.insert (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\utils\\mysqlApi.js:155:20)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\blogs.js:31:30\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\blogs.js:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\dist\\controllers\\blogs.js:4:12)',
+  level: 'error',
+  message: "ER_BAD_NULL_ERROR: Column 'image' cannot be null",
+  timestamp: '2024-05-13T14:47:26.916Z'
+}
+{
+  stack: 'MulterError: Unexpected field\n' +
+    '    at wrappedFileFilter (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\multer@1.4.5-lts.1\\node_modules\\multer\\index.js:40:19)\n' +
+    '    at Multipart.<anonymous> (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\multer@1.4.5-lts.1\\node_modules\\multer\\lib\\make-middleware.js:107:7)\n' +
+    '    at Multipart.emit (node:events:518:28)\n' +
+    '    at HeaderParser.cb (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\busboy@1.6.0\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n' +
+    '    at HeaderParser.push (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\busboy@1.6.0\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n' +
+    '    at SBMH.ssCb [as _cb] (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\busboy@1.6.0\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n' +
+    '    at feed (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\streamsearch@1.1.0\\node_modules\\streamsearch\\lib\\sbmh.js:248:10)\n' +
+    '    at SBMH.push (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\streamsearch@1.1.0\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n' +
+    '    at Multipart._write (C:\\Users\\Teejaey\\Desktop\\Projects\\foodapp\\node_modules\\.pnpm\\busboy@1.6.0\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:564:12)',
+  level: 'error',
+  message: 'Unexpected field',
+  timestamp: '2024-05-13T15:12:45.043Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T15:20:36.659Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T15:20:43.831Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T15:58:16.808Z'
+}
+{
+  message: 'Live on 3000',
+  level: 'info',
+  timestamp: '2024-05-13T15:58:24.545Z'
+}

@@ -1,0 +1,16 @@
+{
+  result: {
+    status: false,
+    message: Error: getaddrinfo ENOTFOUND smtp.gmail.com
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+      errno: -3008,
+      code: 'EDNS',
+      syscall: 'getaddrinfo',
+      hostname: 'smtp.gmail.com',
+      command: 'CONN'
+    }
+  },
+  level: 'error',
+  message: 'mail error',
+  timestamp: '2024-05-14T12:55:54.250Z'
+}

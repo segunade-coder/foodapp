@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bonjour Meals -- Settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="" name="Tabcode" />
+    <!--  Head js -->
+    <script type="module" crossorigin src="assets/theme-b118ffc1.js"></script>
+    <link rel="stylesheet" href="assets/theme-c9540983.css" />
+  </head>
+
+  <body>
+    <!-- End Header -->
+    <header
+      class="sticky top-0 h-18 flex z-40 w-full border-b border-default-200 bg-white dark:bg-default-50 lg:ps-64"
+    >
+      <nav class="flex items-center gap-4 w-full px-6">
+        <!-- Navigation Toggle (in Small Screen) -->
+        <div class="lg:hidden flex">
+          <button
+            type="button"
+            class="text-default-500 hover:text-default-600"
+            data-hs-overlay="#application-sidebar"
+            aria-controls="application-sidebar"
+            aria-label="Toggle navigation"
+          >
+            <i data-lucide="align-justify" class="w-6 h-6"></i>
+          </button>
+        </div>
+
+        <!-- Logo -->
+        <div class="lg:hidden flex">
+          <a href="admin-dashboard.html">
+            <img
+              src="assets/logo/logo.png"
+              alt="logo"
+              class="h-10 w-full flex dark:hidden"
+            />
+            <img
+              src="assets/logo/logo.png"
+              alt="logo"
+              class="h-10 w-full hidden dark:flex"
+            />
+          </a>
+        </div>
+
+        <!-- Topbar Link and Dropdown Button -->
+        <div class="flex items-center gap-4 ms-auto">
+          <!-- Notification Dropdown -->
+          <div class="md:flex hidden">
+            <div
+              class="hs-dropdown relative inline-flex [--placement:bottom-right]"
+            >
+              <button
+                id="hs-dropdown-with-header"
+                type="button"
+                class="hs-dropdown-toggle inline-flex flex-shrink-0 justify-center items-center gap-2 h-10 w-10 rounded-full font-medium text-default-700 align-middle bg-default-100 hover:text-primary transition-all text-xs"
+              >
+                <i data-lucide="bell" class="w-6 h-6"></i>
+                <span
+                  class="absolute top-0 end-1 h-4 w-4 bg-yellow-500 rounded-full animate-ping"
+                ></span>
+                <span
+                  class="absolute top-0 end-1 h-4 w-4 bg-yellow-500 text-xs font-medium text-white rounded-full"
+                  id="bell"
+                  >1</span
+                >
+              </button>
+
+              <div
+                class="hs-dropdown-menu mt-2 transition-[opacity,margin] duration hs-dropdown-open:opacity-100 opacity-0 hidden min-w-[20rem] shadow-md rounded-lg border border-default-200 bg-white dark:bg-default-50"
+              >
+                <div class="px-4 py-2 flex items-center justify-between">
+                  <h6 class="text-sm font-medium">Notification</h6>
+                  <a href="javascript: void(0);" class="text-default-500">
+                    <small>Clear All</small>
+                  </a>
+                </div>
+                <div id="notification-box">
+                  <div
+                    class="p-4 h-80 border-y border-dashed border-default-200"
+                    data-simplebar
+                  >
+                    <a
+                      href="javascript:void(0);"
+                      class="flex items-center mb-4"
+                    >
+                      <div class="flex-grow truncate ms-2">
+                        <div class="flex items-center justify-between">
+                          <h5 class="text-sm font-medium text-default-800">
+                            Benjamin Tonye
+                          </h5>
+                          <small class="inline-flex text-xs text-default-500"
+                            >1 min ago</small
+                          >
+                        </div>
+                        <small class="text-default-400"
+                          >Just Placed an order for Burger</small
+                        >
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <a
+                  href="orders.html"
+                  class="px-4 py-2 block text-center text-primary font-medium text-sm"
+                >
+                  View All
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Start Sidebar -->
+    <div
+      id="application-sidebar"
+      class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden fixed inset-y-0 start-0 z-60 w-64 bg-white border-e border-default-200 overflow-y-auto lg:block lg:translate-x-0 lg:right-auto lg:bottom-0 dark:bg-default-50"
+    >
+      <div
+        class="flex sticky top-0 items-center justify-center px-6 h-18 border-b border-dashed border-default-200"
+      >
+        <a href="index.html">
+          <img
+            src="assets/logo/logo.png"
+            alt="logo"
+            class="flex dark:hidden"
+            width="100"
+          />
+          <img
+            src="assets/logo/logo.png"
+            alt="logo"
+            class="hidden dark:flex"
+            width="100"
+          />
+        </a>
+      </div>
+
+      <div class="h-[calc(100%)]" data-simplebar>
+        <ul class="admin-menu p-4 w-full flex flex-col gap-1.5">
+          <li class="menu-item">
+            <a
+              class="flex items-center gap-x-3.5 py-3 px-4 text-sm text-default-700 rounded-md hover:bg-default-100"
+              href="index.html"
+            >
+              <i data-lucide="layout-grid" class="w-5 h-5"></i>
+              Dashboard
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a
+              href="javascript:void(0)"
+              data-hs-collapse="#menuProduct"
+              class="hs-collapse-toggle flex items-center gap-x-3.5 py-3 px-4 text-sm text-default-700 rounded-md hover:bg-default-100"
+            >
+              <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+              Product
+              <i
+                data-lucide="chevron-down"
+                class="w-4 h-4 ms-auto transition-all hs-collapse-open:rotate-180"
+              ></i>
+            </a>
+
+            <div
+              id="menuProduct"
+              class="hs-collapse w-full overflow-hidden transition-[height] duration-300 hidden"
+            >
+              <ul class="space-y-2 mt-2">
+                <li class="menu-item">
+                  <a
+                    class="flex items-center gap-x-2.5 py-2 px-4 text-sm text-default-700 rounded-md hover:bg-default-100"
+                    href="category.html"
+                  >
+                    <i data-lucide="dot" class="w-6 h-6"></i>
+                    Categories
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="flex items-center gap-x-2.5 py-2 px-4 text-sm text-default-700 rounded-md hover:bg-default-100"
+                    href="products.html"
+                  >
+                    <i data-lucide="dot" class="w-6 h-6"></i>
+                    Products
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="menu-item">
+            <a
+              class="flex items-center gap-x-3.5 py-3 px-4 text-sm text-default-700 rounded-md hover:bg-default-100"
+              href="orders.html"
+            >
+              <i data-lucide="list-ordered" class="w-5 h-5"></i>
+              View Orders
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a
+              href="javascript:void(0)"
+              data-hs-collapse="#menuCustomers"
+              class="hs-collapse-toggle flex items-center gap-x-3.5 py-3 px-4 text-sm text-default-700 rounded-md hover:bg-default-100"
+            >
+              <i data-lucide="users" class="w-5 h-5"></i>
+              CMS
+              <i
+                data-lucide="chevron-down"
+                class="w-4 h-4 ms-auto transition-all hs-collapse-open:rotate-180"
+              ></i>
+            </a>
+
+            <div
+              id="menuCustomers"
+              class="hs-collapse w-full overflow-hidden transition-[height] duration-300 hidden"
+            >
+              <ul class="space-y-2 mt-2">
+                <li class="menu-item">
+                  <a
+                    class="flex items-center gap-x-2.5 py-2 px-4 text-sm text-default-700 rounded-md hover:bg-default-100"
+                    href="view_blog_post.html"
+                  >
+                    <i data-lucide="dot" class="w-6 h-6"></i>
+                    Blog section
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="flex items-center gap-x-2.5 py-2 px-4 text-sm text-default-700 rounded-md hover:bg-default-100"
+                    href="gallery.html"
+                  >
+                    <i data-lucide="dot" class="w-6 h-6"></i>
+                    Gallery section
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="menu-item">
+            <a
+              class="flex items-center gap-x-3.5 py-3 px-4 text-sm text-default-700 rounded-md hover:bg-default-100"
+              href="settings.html"
+            >
+              <i data-lucide="settings" class="w-5 h-5"></i>
+              Settings
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a
+              class="flex items-center gap-x-3.5 py-3 px-4 text-sm text-red-700 rounded-md hover:bg-red-400/10 hover:text-red-800"
+              href="/logout"
+            >
+              <i data-lucide="log-out" class="w-5 h-5"></i>
+              Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Sidebar -->
+    <!-- Start Content -->
+    <div class="w-full lg:ps-64">
+      <div class="p-6 page-content">
+        <div class="flex items-center justify-between w-full mb-6">
+          <h4 class="text-xl font-medium">Settings</h4>
+
+          <ol
+            aria-label="Breadcrumb"
+            class="hidden md:flex items-center whitespace-nowrap min-w-0 gap-2"
+          >
+            <li class="text-sm">
+              <a
+                class="flex items-center gap-2 align-middle text-default-800 transition-all leading-none hover:text-primary-500"
+                href="javascript:void(0)"
+              >
+                Admin
+                <i class="w-4 h-4" data-lucide="chevron-right"></i>
+              </a>
+            </li>
+
+            <li
+              aria-current="page"
+              class="text-sm font-medium text-primary truncate leading-none hover:text-primary-500"
+            >
+              Settings
+            </li>
+          </ol>
+        </div>
+        <div class="p-6 border rounded-lg border-default-200 mb-6">
+          <div>
+            <h4 class="text-xl font-medium text-default-900 mb-4">
+              Change Password
+            </h4>
+
+            <div class="mb-4" data-x-password>
+              <label
+                class="block text-sm font-medium text-default-900 mb-2"
+                for="current_password"
+                >Current Password</label
+              >
+              <div class="flex">
+                <input
+                  type="password"
+                  id="current_password"
+                  class="form-password block w-full rounded-s-full py-2.5 px-4 bg-transparent border border-default-200 focus:ring-transparent focus:border-default-200"
+                  type="password"
+                  placeholder="Enter your password"
+                />
+                <button
+                  id="current_password"
+                  class="password-toggle inline-flex items-center justify-center py-2.5 px-4 border rounded-e-full bg-transparent -ms-px border-default-200"
+                >
+                  <i
+                    class="password-eye-on h-5 w-5 text-default-600"
+                    data-lucide="eye"
+                  ></i>
+                  <i
+                    class="password-eye-off h-5 w-5 text-default-600"
+                    data-lucide="eye-off"
+                  ></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="mb-4" data-x-password>
+              <label
+                class="block text-sm font-medium text-default-900 mb-2"
+                for="new_password"
+                >New Password</label
+              >
+              <div class="flex">
+                <input
+                  type="password"
+                  id="new_password"
+                  class="form-password block w-full rounded-s-full py-2.5 px-4 bg-transparent border border-default-200 focus:ring-transparent focus:border-default-200"
+                  type="password"
+                  placeholder="Enter your password"
+                />
+                <button
+                  id="new_password"
+                  class="password-toggle inline-flex items-center justify-center py-2.5 px-4 border rounded-e-full bg-transparent -ms-px border-default-200"
+                >
+                  <i
+                    class="password-eye-on h-5 w-5 text-default-600"
+                    data-lucide="eye"
+                  ></i>
+                  <i
+                    class="password-eye-off h-5 w-5 text-default-600"
+                    data-lucide="eye-off"
+                  ></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="mb-4" data-x-password>
+              <label
+                class="block text-sm font-medium text-default-900 mb-2"
+                for="confirm_password"
+                >Confirm Password</label
+              >
+              <div class="flex">
+                <input
+                  type="password"
+                  id="confirm_password"
+                  class="form-password block w-full rounded-s-full py-2.5 px-4 bg-transparent border border-default-200 focus:ring-transparent focus:border-default-200"
+                  type="password"
+                  placeholder="Enter your password"
+                />
+                <button
+                  id="confirm_password"
+                  class="password-toggle inline-flex items-center justify-center py-2.5 px-4 border rounded-e-full bg-transparent -ms-px border-default-200"
+                >
+                  <i
+                    class="password-eye-on h-5 w-5 text-default-600"
+                    data-lucide="eye"
+                  ></i>
+                  <i
+                    class="password-eye-off h-5 w-5 text-default-600"
+                    data-lucide="eye-off"
+                  ></i>
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <button
+                id="change-password"
+                class="flex items-center justify-center gap-2 rounded-full border border-primary bg-primary px-6 py-2.5 text-center text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:border-primary-700 hover:bg-primary-500"
+              >
+                Save Changes
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="p-6 border rounded-lg border-default-200">
+            <h4 class="text-xl font-medium text-default-900 mb-6">Mailler</h4>
+
+            <div class="grid lg:grid-cols-2 gap-6">
+              <div class="lg:col-span-2">
+                <label
+                  class="block text-sm font-medium text-default-900 mb-2"
+                  for=""
+                  >Email
+                </label>
+                <input
+                  class="block w-full bg-transparent py-2.5 px-4 border border-default-200 focus:ring-transparent focus:border-default-200 dark:bg-default-50"
+                  type="email"
+                  placeholder="demoexample@mail.com"
+                  id="email"
+                />
+              </div>
+
+              <div class="lg:col-span-2">
+                <label
+                  class="block text-sm font-medium text-default-900 mb-2"
+                  for=""
+                  >Subject</label
+                >
+                <input
+                  class="block w-full bg-transparent py-2.5 px-4 border border-default-200 focus:ring-transparent focus:border-default-200 dark:bg-default-50"
+                  type="text"
+                  placeholder="Subject"
+                  id="subject"
+                />
+              </div>
+
+              <div class="lg:col-span-2">
+                <label
+                  class="block text-sm font-medium text-default-900 mb-2"
+                  for=""
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  class="block w-full bg-transparent px-4 border-default-200 focus:ring-transparent focus:border-default-200 dark:bg-default-50"
+                  placeholder="Message"
+                >
+                </textarea>
+              </div>
+
+              <div>
+                <button
+                  class="flex items-center justify-center gap-2 rounded-full border border-primary bg-primary px-6 py-2.5 text-center text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:border-primary-700 hover:bg-primary-500"
+                  id="send-mail"
+                >
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- end grid-col -->
+          <!-- end grid-col -->
+        </div>
+      </div>
+    </div>
+    <!-- End Content -->
+  </body>
+  <script src="./assets/js/notification.js"></script>
+  <script>
+    document
+      .getElementById("change-password")
+      .addEventListener("click", async (e) => {
+        e.preventDefault();
+        let old = document.getElementById("current_password").value;
+        let password = document.getElementById("new_password").value;
+        let confirm = document.getElementById("confirm_password").value;
+        e.preventDefault();
+        try {
+          e.target.innerText = "Loading...";
+          e.target.setAttribute("disabled", true);
+
+          const res = await fetch("/password-reset", {
+            method: "PATCH",
+            body: JSON.stringify({ old, password, confirm }),
+            headers: {
+              "Content-Type": "application/json",
+            },
+          });
+          e.target.innerText = "Save Changes";
+          e.target.removeAttribute("disabled");
+
+          if (res.redirected) {
+            return (window.location.href = res.url);
+          }
+          const result = await res.json();
+          if (result.status) {
+            alert(result.message);
+            old.value = "";
+            password.value = "";
+            confirm.value = "";
+          } else {
+            alert("Error: " + result.message);
+          }
+        } catch (error) {
+          console.log(error);
+          if (error.status) alert("Error: " + error?.message);
+          else alert("Something went wrong");
+        }
+      });
+    document
+      .getElementById("send-mail")
+      .addEventListener("click", async (e) => {
+        e.preventDefault();
+        let email = document.getElementById("email").value;
+        let subject = document.getElementById("subject").value;
+        let message = document.getElementById("message").value;
+        e.preventDefault();
+        try {
+          e.target.innerText = "Loading...";
+          e.target.setAttribute("disabled", true);
+          const res = await fetch("/mailer", {
+            method: "POST",
+            body: JSON.stringify({ email, subject, message }),
+            headers: {
+              "Content-Type": "application/json",
+            },
+          });
+          e.target.innerText = "Send Message";
+          e.target.removeAttribute("disabled");
+          if (res.redirected) window.location.href = res.url;
+          const result = await res.json();
+          if (result.status) {
+            alert(result.message);
+            email.value = "";
+            subject.value = "";
+            message.value = "";
+          } else {
+            alert("Error: " + result.message);
+          }
+        } catch (error) {
+          console.log(error);
+          if (error.status) alert("Error: " + error?.message);
+          else alert("Something went wrong");
+        }
+      });
+  </script>
+</html>
